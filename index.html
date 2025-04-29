@@ -1,4 +1,4 @@
-Below is a simple HTML code for a cleaning services website homepage. I've kept it straightforward, focusing on essential elements like a header, navigation, main content section, and footer. I've also included basic inline CSS in the `<style>` tag to make it visually appealing without relying on external files. This code is responsive and can be copied directly into an HTML file.
+Below is a simple HTML code for a cleaning services website homepage. I've kept it basic, using semantic HTML for structure and added minimal inline CSS to make it somewhat presentable. This is not a full-fledged website but a starting point that you can enhance with CSS, JavaScript, or a framework like Bootstrap.
 
 ```html
 <!DOCTYPE html>
@@ -6,189 +6,71 @@ Below is a simple HTML code for a cleaning services website homepage. I've kept 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>Sparkle Clean Services - Home</title>
-=======
-    <meta name="description" content="Discover top-quality cleaning services in Brussels. Our expert team provides reliable house cleaning to keep your home spotless and fresh.">
-    <meta name="keywords" content="cleaning services, Brussels, house cleaning">
-    <title>Brussels Cleaning Services</title>
->>>>>>> 74d24a0a6dfb5264064bb01097dd1d0e737006db
+    <title>CleanPro Services - Professional Cleaning</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-<<<<<<< HEAD
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-=======
-            padding: 20px;
-            background-color: #f4f4f4;
-            line-height: 1.6;
->>>>>>> 74d24a0a6dfb5264064bb01097dd1d0e737006db
-        }
-        header {
-            background-color: #007bff; /* Blue color for header */
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-        .hero {
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background-color: #007bff;
-            color: white;
-<<<<<<< HEAD
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-=======
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        h1 {
-            margin: 0;
-        }
-        .content {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        form {
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        button {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #0056b3;
->>>>>>> 74d24a0a6dfb5264064bb01097dd1d0e737006db
-        }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        header { background-color: #4CAF50; color: white; padding: 15px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .hero { background-color: #f1f1f1; padding: 50px 20px; text-align: center; }
+        .services { padding: 20px; }
+        .services ul { list-style-type: none; padding: 0; }
+        .services li { margin: 10px 0; }
+        footer { background-color: #333; color: white; padding: 10px; text-align: center; font-size: 0.9em; }
     </style>
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Sparkle Clean Services</h1>
+        <h1>CleanPro Services</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    
-<<<<<<< HEAD
-    <main>
-        <section class="hero">
-            <h2>Welcome to Sparkle Clean Services</h2>
-            <p>We provide top-notch cleaning services for homes, offices, and more. Our professional team ensures your space is spotless and hygienic, using eco-friendly products and reliable methods.</p>
-            <p>Whether it's a deep clean, routine maintenance, or special event preparation, we've got you covered. Experience the difference with our affordable and efficient services!</p>
-        </section>
-        
-        <section>
-            <h3>Our Services Include:</h3>
-            <ul style="list-style-type: none; padding: 0;">
-                <li>Residential Cleaning</li>
-                <li>Commercial Cleaning</li>
-                <li>Carpet and Upholstery Cleaning</li>
-                <li>Window Washing</li>
-                <li>Move-In/Out Cleaning</li>
-            </ul>
-            <a href="contact.html" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px;">Book Now</a>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2023 Sparkle Clean Services. Contact us at info@sparkleclean.com | Phone: (123) 456-7890</p>
-    </footer>
-=======
-    <section class="content">
-        <h2>Professional Cleaning Services in Brussels</h2>
-        <p>Are you searching for reliable cleaning services in Brussels? Look no further than Brussels Cleaning Services, your trusted partner for exceptional house cleaning and maintenance. In the heart of Brussels, our dedicated team specializes in transforming homes with thorough, efficient, and affordable cleaning solutions. Whether you're dealing with everyday dust or preparing for a special event, our expert cleaners ensure every corner shines.</p>
-        
-        <p>Brussels is a vibrant city, but maintaining a clean home amidst its busy streets can be challenging. That's where our professional house cleaning services come in. We use eco-friendly products and state-of-the-art techniques to deliver spotless results, making your living space healthier and more inviting. From deep cleaning kitchens and bathrooms to dusting hard-to-reach areas, we cover it all. Our services are tailored to meet the unique needs of Brussels residents, ensuring your home remains a sanctuary of comfort.</p>
-        
-        <p>Why choose Brussels Cleaning Services? We stand out with our experienced team, prompt scheduling, and commitment to customer satisfaction. In Brussels, house cleaning isn't just about tidiness—it's about creating a fresh environment that enhances your well-being. Our affordable rates and flexible options make it easy to book regular or one-time services. Plus, we prioritize safety and discretion, respecting your privacy every step of the way.</p>
-        
-        <p>Experience the difference with our top-rated cleaning services in Brussels. Join hundreds of satisfied clients who trust us for their house cleaning needs. Contact us today to schedule an appointment and discover how we can make your home sparkle. At Brussels Cleaning Services, we're more than just cleaners—we're your partners in maintaining a pristine living space in the dynamic city of Brussels.</p>
-        
-        <!-- Word count: Approximately 320 words -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Professional Cleaning Services for Your Home and Office</h2>
+        <p>We provide top-quality cleaning solutions to make your space sparkle. From deep cleans to routine maintenance, we've got you covered.</p>
+        <a href="#contact" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Get a Free Quote</a>
     </section>
-    
-    <section class="content">
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Residential Cleaning: Dusting, vacuuming, and sanitizing your home.</li>
+            <li>Commercial Cleaning: Office spaces, retail stores, and more.</li>
+            <li>Deep Cleaning: Thorough cleaning for carpets, windows, and appliances.</li>
+            <li>Move-In/Out Cleaning: Preparing homes for new occupants.</li>
+        </ul>
+        <p>Contact us today to customize a cleaning plan that fits your needs!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="padding: 20px; text-align: center; background-color: #e9e9e9;">
         <h2>Contact Us</h2>
-        <form action="https://formspree.io/f/xyzwkkrv" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            
-            <button type="submit">Send Message</button>
-        </form>
+        <p>Email: info@cleanproservices.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Cleaning Lane, City, State, ZIP Code</p>
     </section>
->>>>>>> 74d24a0a6dfb5264064bb01097dd1d0e737006db
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 CleanPro Services. All rights reserved.</p>
+    </footer>
 </body>
 </html>
 ```
 
-<<<<<<< HEAD
 ### Explanation:
-- **Header:** Contains the company name and a simple navigation menu with links to other pages (e.g., Services, About, Contact). These links are placeholders; in a real site, they'd point to actual HTML files.
-- **Main Content:** Includes a hero section with a welcome message and a brief description. Below that, there's a list of services and a "Book Now" button that links to a contact page.
-- **Footer:** Provides basic contact information and copyright details. It's fixed at the bottom for better visibility.
-- **Styling:** Basic CSS is used to add colors, padding, and responsiveness. The design is clean and professional, aligning with a cleaning services theme.
-- **Responsiveness:** The viewport meta tag ensures the page works on mobile devices.
+- **Header**: Contains the company name and a simple navigation menu.
+- **Hero Section**: A prominent area with a headline, description, and a call-to-action button to encourage visitors to get a quote.
+- **Services Section**: Lists out the key services offered.
+- **Contact Section**: Provides basic contact information.
+- **Footer**: Includes copyright information.
+- **Styling**: I added inline CSS for basic layout and colors. You can replace this with an external CSS file for better organization.
+- **Responsiveness**: The meta viewport tag ensures the page works on mobile devices.
 
-You can save this code in a file (e.g., `index.html`) and open it in a web browser to see it in action. If you need to add more features like images or JavaScript, let me know!
-=======
-This one-page HTML site includes:
-- **Header**: An <h1> element with the title "Brussels Cleaning Services" styled in a centered, blue background header.
-- **SEO-Optimized Content**: A 320-word section in the <section> that naturally incorporates keywords like "cleaning services," "Brussels," and "house cleaning." The content is engaging, informative, and structured for readability, with keywords used in headings and paragraphs to boost SEO.
-- **Contact Form**: A simple form with fields for name, email, and message, using the specified action attribute. It includes required attributes for basic validation.
-- **Basic CSS**: Inline styles for a clean, responsive layout, including styling for the header, content sections, and form elements.
-- **Meta Tags**: Included in the <head> for SEO, covering charset, viewport, description, and keywords to improve search engine visibility.
-
-This page is fully self-contained and ready to use. Simply save it as an HTML file and open it in a browser.
->>>>>>> 74d24a0a6dfb5264064bb01097dd1d0e737006db
+This HTML is straightforward and can be opened in any web browser to view. If you need to add more features (e.g., images, forms, or interactivity), let me know!
